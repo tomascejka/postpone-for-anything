@@ -1,3 +1,5 @@
+_Sources_
+
 *http://maven.apache.org/archetype/archetype-packaging/index.html
 
 *http://maven.apache.org/guides/mini/guide-creating-archetypes.html
