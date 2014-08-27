@@ -2,6 +2,7 @@
 #
 #  Create maven archetype directory structure with pom.xml and archetype descriptor.xml
 #  TODO [cejka]
+# http://maven.apache.org/guides/mini/guide-creating-archetypes.html
 #
 
 name=$1
