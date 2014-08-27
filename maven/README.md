@@ -11,3 +11,6 @@ _Sources_
 *http://mvnrepository.com/
 
 *http://search.maven.org/
+
+
+Zajimave - http://rmalinowski.blogspot.cz/2009/03/maven-pomxml-for-resource-adapter.html , je ta mi postup na glassfish!!!
