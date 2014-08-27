@@ -1,1 +1,144 @@
 http://askubuntu.com/questions/56104/how-can-i-install-sun-oracles-proprietary-java-jdk-6-7-8-or-jre
+
+
+ 532 down vote
+	
+
+There is a similar answer on how to install JRE 8.
+Install Java JDK
+The manual way
+
+    Download the 32-bit or 64-bit Linux "compressed binary file" - it has a ".tar.gz" file extension.
+
+    Uncompress it
+
+    tar -xvf jdk-8-linux-i586.tar.gz (32-bit)
+
+    tar -xvf jdk-8-linux-x64.tar.gz (64-bit)
+
+The JDK 8 package is extracted into ./jdk1.8.0 directory. N.B.: Check carefully this folder name since Oracle seem to change this occasionally with each update.
+
+    Now move the JDK 8 directory to /usr/lib
+
+sudo mkdir -p /usr/lib/jvm
+sudo mv ./jdk1.8.0 /usr/lib/jvm/
+
+    Now run
+
+    sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0/bin/java" 1
+    sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0/bin/javac" 1
+    sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.8.0/bin/javaws" 1
+
+This will assign Oracle JDK a priority of 1, which means that installing other JDKs will replace it as the default. Be sure to use a higher priority if you want Oracle JDK to remain the default.
+
+    Correct the file ownership and the permissions of the executables:
+
+    sudo chmod a+x /usr/bin/java
+    sudo chmod a+x /usr/bin/javac
+    sudo chmod a+x /usr/bin/javaws
+    sudo chown -R root:root /usr/lib/jvm/jdk1.8.0
+
+N.B.: Remember - Java JDK has many more executables that you can similarly install as above. java, javac, javaws are probably the most frequently required. This answer lists the other executables available.
+
+    Run
+
+    sudo update-alternatives --config java
+
+You will see output similar to the one below - choose the number of jdk1.8.0 - for example 3 in this list (unless you have have never installed Java installed in your computer in which case a sentence saying "There is nothing to configure" will appear):
+
+    $ sudo update-alternatives --config java
+    There are 3 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                            Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java   1071      auto mode
+  1            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java   1071      manual mode
+* 2            /usr/lib/jvm/jdk1.7.0/bin/java                   1         manual mode
+  3            /usr/lib/jvm/jdk1.8.0/bin/java                   1         manual mode
+
+Press enter to keep the current choice[*], or type selection number: 3
+update-alternatives: using /usr/lib/jvm/jdk1.8.0/bin/java to provide /usr/bin/java (java) in manual mode
+
+Repeat the above for:
+
+sudo update-alternatives --config javac
+sudo update-alternatives --config javaws
+
+Note for NetBeans users!
+
+You need to set the new JDK as default editing the configuration file.
+
+If you want to enable the Mozilla Firefox plugin:
+
+32 bit:
+ln -s /usr/lib/jvm/jdk1.8.0/jre/lib/i386/libnpjp2.so ~/.mozilla/plugins/
+
+64 bit:
+ln -s /usr/lib/jvm/jdk1.8.0/jre/lib/amd64/libnpjp2.so ~/.mozilla/plugins/
+
+N.B.: You can link the plugin (libnpjp2.so) to /usr/lib/firefox/plugins/ for a system-wide installation. For Ubuntu 13.10, the path to the plugin directory is /usr/lib/firefox/browser/plugins/.
+
+Depending on your configuration, you might need to update the apparmor profile for Firefox (or other browsers) in /etc/apparmor.d/abstractions/ubuntu-browsers.d/java:
+
+# Replace the two lines:
+#  /usr/lib/jvm/java-*-sun-1.*/jre/bin/java{,_vm} cx -> browser_java,
+#  /usr/lib/jvm/java-*-sun-1.*/jre/lib/*/libnp*.so cx -> browser_java,
+# with those (or adapt to your new jdk folder name)
+/usr/lib/jvm/jdk*/jre/bin/java{,_vm} cx -> browser_java,
+/usr/lib/jvm/jdk*/jre/lib/*/libnp*.so cx -> browser_java,
+
+Then restart apparmor:
+
+sudo /etc/init.d/apparmor restart
+
+The easy way
+
+The easiest way to install the JDK 7 is to do it with the Web Up8 Oracle Java OOS. However, it is believed that this PPA is sometimes out of date. Also note the dangers of using a PPA.
+
+This installs JDK 7 (which includes Java JDK, JRE and the Java browser plugin):
+
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
+Source
+
+N.B.: Before someone screams this is against the Oracle redistribution license - the PPA does not actually have Java in the personal repository. Instead, the PPA directly downloads from Oracle and installs it.
+The Script way
+
+If you're on a fresh installation of Ubuntu with no previous Java installations, this script automates the process outlined above if you don't want to type all that into a console. Remember, you still need to download Java from Oracle's website -- Oracle's links are not wget friendly.
+
+Before using this make sure that this script is in the same directory as the .tar.gz file extension that you downloaded and there are no files that start with jdk-7 in the same folder. If there are, please move them out of the folder temporarily. Remember to make the script executable (chmod +x <script's file>).
+
+#!/bin/sh
+
+tar -xvf jdk-7*
+sudo mkdir /usr/lib/jvm
+sudo mv ./jdk1.7* /usr/lib/jvm/jdk1.7.0
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.7.0/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.7.0/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.7.0/bin/javaws" 1
+sudo chmod a+x /usr/bin/java
+sudo chmod a+x /usr/bin/javac
+sudo chmod a+x /usr/bin/javaws
+
+If you want to install the plugin for Firefox then add this to the end of the script:
+
+mkdir ~/.mozilla/plugins
+ln -s /usr/lib/jvm/jdk1.7.0/jre/lib/amd64/libnpjp2.so ~/.mozilla/plugins/
+sudo /etc/init.d/apparmor restart
+
+Check if installation was successful
+
+You can check if the installation succeeded with the following command:
+
+java -version
+
+You should see something like
+
+java version "1.8.0"
+Java(TM) SE Runtime Environment (build 1.8.0-b132)
+Java HotSpot(TM) 64-Bit Server VM (build 25.0-b70, mixed mode)
+
+You can check if the JRE Mozilla plugin has been successful by using the official oracle website.
