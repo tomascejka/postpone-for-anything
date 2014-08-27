@@ -17,3 +17,5 @@ _Sources_
 *http://zetcode.com/tutorials/javaswingtutorial/firstprograms/
 
 *http://www.edu4java.com/en/swing/swing3.html
+
+*https://netbeans.org/kb/docs/java/quickstart-gui.html#getting_familiar
