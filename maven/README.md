@@ -18,3 +18,4 @@ Zajimave
 - http://it-ebooks.info/book/3295/, knizka Continuous Enterprise Development in Java
 Testable Solutions with Arquillian 
 - http://arquillian.org/features/
+- JBOSS Forge - http://arquillian.org/guides/get_started_faster_with_forge/
