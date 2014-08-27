@@ -1,9 +1,7 @@
 #!/bin/bash
 #
 #  Create maven archetype directory structure with pom.xml and archetype descriptor.xml
-#  TODO [cejka]
-# http://maven.apache.org/guides/mini/guide-creating-archetypes.html
-#
+#  http://maven.apache.org/guides/mini/guide-creating-archetypes.html
 
 name=$1
 group=$2
@@ -11,15 +9,18 @@ archid=$3
 
 #  CHECK INCOMING PARAMETERS
 if [ -z "$name" ];
+then
   echo "Project name cannot be null - it is FIRST parameter"
   exit 1
 fi
 if [ -z "$group" ];
+then
   echo "GroupId cannot be null (can contains dots) - it is SECOND parameter"
   exit 1
 fi
 if [ -z "$archid" ];
-  echo "ArtifactId cannot be null - it is THIRD parameter";
+then  
+  echo "ArtifactId cannot be null - it is THIRD parameter"
   exit 1
 fi
 
@@ -27,6 +28,7 @@ mkdir $name
 
 # ARCHETYPE
 resources=$name/src/main/resources
+mkdir -p $resources
 mkdir -p $resources/META-INF/maven
 mkdir -p $resources/archetype-resources
 
@@ -46,8 +48,8 @@ cat > pom.xml <<EOF
   </properties>
 </project>
 EOF
+mv pom.xml $name
 
-cd $resources/META-INF/maven
 cat > archetype-metadata.xml <<EOF
 <archetype-descriptor name="my-archetype-project"
 xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
@@ -78,9 +80,11 @@ xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/arche
   </fileSets>
 </archetype-descriptor>
 EOF
+mv archetype-metadata.xml $resources/META-INF/maven 
 
 # ARCHETYPE RESOURCES
 archetype=$resources/archetype-resources
+mkdir -p $archetype
 mkdir -p $archetype/src/main/java
 mkdir -p $archetype/src/main/resources
 mkdir -p $archetype/src/test/java
