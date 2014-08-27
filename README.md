@@ -1,0 +1,4 @@
+odkladaci
+=========
+
+ruzne odkladaci
