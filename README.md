@@ -2,6 +2,7 @@ Postpone
 =========
 
 Getting this done
+
 A. Target - MAVEN ARCHETYPES
 - study official maven archetype guide
 - create archetype script (bash, groovy etc.)
