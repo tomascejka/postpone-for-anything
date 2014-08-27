@@ -13,4 +13,7 @@ _Sources_
 *http://search.maven.org/
 
 
-Zajimave - http://rmalinowski.blogspot.cz/2009/03/maven-pomxml-for-resource-adapter.html , je ta mi postup na glassfish!!!
+Zajimave 
+- http://rmalinowski.blogspot.cz/2009/03/maven-pomxml-for-resource-adapter.html , je ta mi postup na glassfish!!!
+- http://it-ebooks.info/book/3295/, knizka Continuous Enterprise Development in Java
+Testable Solutions with Arquillian 
