@@ -13,7 +13,7 @@
 
 gl=$1/bin/asadmin
 earname=$2 #BarclaycardApacsConnector-ear-1.0.0-SNAPSHOT-local
-earpath=$3 #/home/tomascejka/Tools/glassfish/glassfish-3.1.2.2/ /media/data/tomascejka/.Private/Repositories/wincor/LoomPMG/trunk/BarclaycardApacsConnector/BarclaycardApacsConnector-ear/target/$earname.ear
+earpath=$3 #/home/tomascejka/Tools/glassfish/glassfish-3.1.2.2/ /media/data/tomascejka/.Private/Repositories/lab/trunk/BarclaycardApacsConnector/BarclaycardApacsConnector-ear/target/$earname.ear
 
 #
 #  DEPLOY
