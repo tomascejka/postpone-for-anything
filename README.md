@@ -18,3 +18,4 @@ C. FORGE - co to je?
  
 D. Jak pracovat jinak - happy-and-motivated
 * http://www.svobodavpraci.cz
+* http://www.infoq.com/minibooks/scrum-xp-from-the-trenches
