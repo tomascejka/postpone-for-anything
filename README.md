@@ -15,3 +15,6 @@ B. JCA abstrakce (FOCUS - prave delam tomto tasku):
  
 C. FORGE - co to je?
 - http://forge.jboss.org/
+ 
+D. Jak pracovat jinak - happy-and-motivated
+* http://www.svobodavpraci.cz
