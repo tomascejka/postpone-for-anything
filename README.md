@@ -23,3 +23,7 @@ D. Jak pracovat jinak - happy-and-motivated
 
 E. SQL performace
 * http://www.jooq.org/learn/
+
+F. Dependency injection jinak
+* HK2, https://hk2.java.net/ (pouziva jej glassfish),
+* Guice, https://github.com/google/guice/wiki/Motivation (pouziva jej google)
