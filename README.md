@@ -28,5 +28,5 @@ F. Dependency injection jinak
 * HK2, https://hk2.java.net/ (pouziva jej glassfish),
 * Guice, https://github.com/google/guice/wiki/Motivation (pouziva jej google)
 
-G. Mami ja jednou budu architektem:
+G. Architektura:
 * http://www.petrikainulainen.net/software-development/design/understanding-spring-web-application-architecture-the-classic-way/
