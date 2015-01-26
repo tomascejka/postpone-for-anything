@@ -9,7 +9,6 @@ A. Target - MAVEN ARCHETYPES
 - study official maven archetype guide
 - create archetype script (bash, groovy etc.)
 
-- 
 B. JCA abstrakce (FOCUS - prave delam tomto tasku):
 - udelat v praci abstraktni knihovnu pro JCA based konektory do bank (99%)
 - dokumentace (60% - vetsina je v javadoc, je to dostacujici, mozna jeste dokument, proto dalsich 40%)
