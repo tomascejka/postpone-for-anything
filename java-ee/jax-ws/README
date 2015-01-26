@@ -2,6 +2,9 @@ Dokumentace:
 * http://docs.oracle.com/javaee/6/tutorial/doc/bnayl.html
 * https://docs.oracle.com/javaee/7/tutorial/partwebsvcs.htm
 
+Presentace:
+* http://www.slideshare.net/pichlik/spring-web-services
+
 Examples:
 * hello world (RCP, WSImport) - http://www.mkyong.com/webservices/jax-ws/jax-ws-hello-world-example/
 * tomee+cxf+EclipseIDE - http://blog.sortedset.com/step-by-step-web-services-with-tomcat-tomee-apache-cxf-eclipse/
