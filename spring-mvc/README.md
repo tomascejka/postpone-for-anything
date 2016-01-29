@@ -57,7 +57,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 Chci do MVC zatahnout nejake sablony:
 * Thymeleaf - (http://www.thymeleaf.org/)
 * Trimou - http://trimou.org/
-* Sitemesh (decorator pattern for UI)
+* Sitemesh  - http://wiki.sitemesh.org/wiki/display/sitemesh/Home (decorator pattern for UI)
 
 ### Integrace s MVC
 * http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#preface (thymeleaf)
