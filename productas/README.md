@@ -2,6 +2,7 @@
 * http://datatables.net/
 * http://dandelion.github.io/components/datatables/ **HOT**
 
+## Others
 * http://websystique.com/springmvc/spring-mvc-4-angularjs-example/
 * https://avaldes.com/spring-mvc-restful-web-service-example-with-spring-data-for-mongodb-angularjs-bootstrap-and-grid-ui/
 * http://g00glen00b.be/tag/spring-security/
