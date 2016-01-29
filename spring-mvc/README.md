@@ -9,11 +9,13 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://www.javatpoint.com/spring-3-mvc-tutorial
 * https://spring.io/guides/gs/serving-web-content/
 * http://o7planning.org/web/fe/default/en/document/8108/spring-mvc-tutorial-for-beginners
+* http://crunchify.com/spring-mvc-introduction-to-spring-3-mvc-framework/
 * http://javahash.com/spring-4-mvc-hello-world-tutorial-full-example/
-* http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/
-* http://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
+* https://samerabdelkafi.wordpress.com/2014/08/03/spring-mvc-full-java-based-config/
 
 #### Examples:
+* http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/
+* http://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
 * http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/ (MVC+XML response)
 * http://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/ (MVC+JSON response)
 * http://hmkcode.com/spring-mvc-return-json-using-responseboyd/ (MVC+JSON response)
@@ -64,6 +66,17 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 
 #### Examples
 * https://github.com/pkainulainen/spring-mvc-test-examples
+
+### Bootstrap
+* http://spring-bootstrap.herokuapp.com/getstarted // https://github.com/priyatam/springmvc-bootstrap
+* https://samerabdelkafi.wordpress.com/2014/09/17/bootstrap-3/
+* http://duckranger.com/2012/07/spring-mvc-and-twitter-bootstrap-customizing-the-input-fields/
+
+### Angular
+* https://samerabdelkafi.wordpress.com/2015/01/25/angularjs/
+* https://samerabdelkafi.wordpress.com/2015/09/14/rest-api-documentation-with-swagger-and-angularjs/
+* https://samerabdelkafi.wordpress.com/2015/09/25/gulp-on-a-maven-managed-project/
+
 
 ## TEMPLATE BASED CODING
 Chci do MVC zatahnout nejake sablony:
