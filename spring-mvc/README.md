@@ -12,6 +12,11 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://javahash.com/spring-4-mvc-hello-world-tutorial-full-example/
 * http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/
 * http://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
+#### Examples:
+* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/ (MVC+XML response)
+* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/ (MVC+JSON response)
+* http://hmkcode.com/spring-mvc-return-json-using-responseboyd/ (MVC+JSON response)
+* http://www.leveluplunch.com/java/tutorials/010-building-restful-webservice-spring-mvc-boot/ (REST)
 
 ### Q1 Exception handling in MVC
 * https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
@@ -38,16 +43,12 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 ### Testing MVC Controllers
 * http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#spring-mvc-test-framework
 * http://www.petrikainulainen.net/spring-mvc-test-tutorial/
-** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-configuration/
-** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/
-** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
+* http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-configuration/
+* http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/
+* http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
 * https://stackoverflow.com/questions/32052610/spring-unit-test-404-unknown-url-in-mock-mvc
-
-### Examples:
-* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/ (MVC+XML response)
-* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/ (MVC+JSON response)
-* http://hmkcode.com/spring-mvc-return-json-using-responseboyd/ (MVC+JSON response)
-* http://www.leveluplunch.com/java/tutorials/010-building-restful-webservice-spring-mvc-boot/ (REST)
+#### Examples
+* https://github.com/pkainulainen/spring-mvc-test-examples
 
 ## TEMPLATE BASED CODING
 Chci do MVC zatahnout nejake sablony:
