@@ -5,7 +5,7 @@ Official current docs
 
 How @ResponseBody works:
 * http://www.javacodegeeks.com/2013/07/spring-mvc-requestbody-and-responsebody-demystified.html
-* http://websystique.com/springmvc/spring-mvc-requestbody-responsebody-example/ (*README*)
+* http://websystique.com/springmvc/spring-mvc-requestbody-responsebody-example/ (_README_)
 * https://stackoverflow.com/questions/28646332/how-exactly-works-the-spring-responsebody-annotation-in-this-restful-applicatio
 * https://en.wikipedia.org/wiki/Content_negotiation
 
