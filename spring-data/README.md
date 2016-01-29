@@ -7,6 +7,7 @@
 ##Articles (**README**)
 * http://www.petrikainulainen.net/spring-data-jpa-tutorial/
 * http://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-part-six-sorting/ (Sortovani)
+* https://samerabdelkafi.wordpress.com/2014/05/29/spring-data-jpa/
 
 #### Examples
 * https://github.com/pkainulainen/spring-data-jpa-examples/tree/sorting
@@ -18,6 +19,7 @@
 * http://g00glen00b.be/testing-spring-data-repository/
 * http://www.javacodegeeks.com/2012/04/dbunit-spring-and-annotations-for.html
 * https://blog.frankel.ch/database-unit-testing-with-dbunit-spring-and-testng
+* https://samerabdelkafi.wordpress.com/2010/08/10/dbunit-test-and-pobulate-database-with-dbunit-hibernate-and-spring/
 
 ## Spring JPA implementace
 * https://github.com/thymeleaf/thymeleafexamples-petclinic/tree/2.1-master/src/main/java/org/springframework/samples/petclinic/repository/jpa (RAW JPA)
