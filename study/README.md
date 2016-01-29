@@ -5,3 +5,4 @@
 * http://www.hascode.com/2012/06/task-scheduling-in-java-ee-6-on-glassfish-using-the-timer-service/
 * http://www.hascode.com/2015/09/using-deferred-objects-and-promises-with-java-8-and-jdeferred/
 * http://www.hascode.com/snippets/#Use_SLF4J_and_Logback_with_Maven
+* http://www.hostettler.net/blog/2012/12/31/jee6-tutorial/ (vse okolo JEE6)
