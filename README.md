@@ -3,10 +3,14 @@ Postpone
 
 README
 * http://www.vzhurudolu.cz/prirucka/webovy-koder
-* http://tomasp.net/blog/2015/library-frameworks/
+* http://tomasp.net/blog/2015/library-frameworks/  (*HOT*)
+* http://www.oraclejavamagazine-digital.com/javamagazine_twitter/20151112?pg=31#pg31 (*HOT*)
 * http://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/
 * http://blog.ploeh.dk/2015/10/08/command-query-separation-when-queries-should-have-side-effects/
 * http://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/
+* http://os.js.org/
+* http://www.javaadvent.com/2015/12/microservices-and-java-ee.html
+* https://alistairisrael.wordpress.com/2009/09/02/functional-http-testing-with-sun-java-6-httpserver/
 
 Getting this done
 
