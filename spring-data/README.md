@@ -13,8 +13,17 @@
 * http://www.petrikainulainen.net/programming/maven/integration-testing-with-maven/
 
 ## Testovani s DBUNIT
+* http://dbunit.sourceforge.net/
 * https://springtestdbunit.github.io/spring-test-dbunit/index.html
 * http://g00glen00b.be/testing-spring-data-repository/
+* http://www.javacodegeeks.com/2012/04/dbunit-spring-and-annotations-for.html
+* https://blog.frankel.ch/database-unit-testing-with-dbunit-spring-and-testng
+
+## Spring JPA implementace
+* https://github.com/thymeleaf/thymeleafexamples-petclinic/tree/2.1-master/src/main/java/org/springframework/samples/petclinic/repository/jpa (RAW JPA)
+* https://github.com/thymeleaf/thymeleafexamples-petclinic/tree/2.1-master/src/main/java/org/springframework/samples/petclinic/repository/jdbc (JPA via JDBC template)
+* https://github.com/thymeleaf/thymeleafexamples-petclinic/tree/2.1-master/src/main/java/org/springframework/samples/petclinic/repository/springdatajpa (SPRING DATA JPA)
+
 
 ## Questions
 #### Co je to hbm2ddl.auto? 
