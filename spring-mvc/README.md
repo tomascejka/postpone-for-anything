@@ -36,6 +36,11 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://blog.teamextension.com/handling-exceptions-in-spring-mvc-with-logging-903
  
 ### Testing MVC Controllers
+* http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#spring-mvc-test-framework
+* http://www.petrikainulainen.net/spring-mvc-test-tutorial/
+** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-configuration/
+** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/
+** http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
 * https://stackoverflow.com/questions/32052610/spring-unit-test-404-unknown-url-in-mock-mvc
 
 ### Examples:
@@ -48,6 +53,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 Chci do MVC zatahnout nejake sablony:
 * Thymeleaf - (http://www.thymeleaf.org/)
 * Trimou - http://trimou.org/
+* Sitemesh (decorator pattern for UI)
 
 ### Integrace s MVC
 * http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#preface (thymeleaf)
