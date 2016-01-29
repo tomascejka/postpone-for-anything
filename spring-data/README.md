@@ -1,12 +1,13 @@
-Oficial
+##Official
 * http://docs.spring.io/spring-data/jpa/docs/current/reference/html/
 
-Konfigurace
+##Konfigurace
 * http://www.baeldung.com/2011/12/13/the-persistence-layer-with-spring-3-1-and-jpa/#javaconfig
 
-Articles (**README**)
+##Articles (**README**)
 * http://www.petrikainulainen.net/spring-data-jpa-tutorial/
 * http://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-part-six-sorting/ (Sortovani)
+
 #### Examples
 * https://github.com/pkainulainen/spring-data-jpa-examples/tree/sorting
 * http://www.petrikainulainen.net/programming/maven/integration-testing-with-maven/
