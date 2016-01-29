@@ -1,1 +1,14 @@
+MVC
 
+Official current docs
+* http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
+
+How @ResponseBody works:
+* http://www.javacodegeeks.com/2013/07/spring-mvc-requestbody-and-responsebody-demystified.html
+* http://websystique.com/springmvc/spring-mvc-requestbody-responsebody-example/ (*README*)
+* https://stackoverflow.com/questions/28646332/how-exactly-works-the-spring-responsebody-annotation-in-this-restful-applicatio
+* https://en.wikipedia.org/wiki/Content_negotiation
+
+Examples:
+* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/ (MVC+XML response)
+* http://www.leveluplunch.com/java/tutorials/010-building-restful-webservice-spring-mvc-boot/ (REST)
