@@ -1,6 +1,13 @@
 Postpone
 =========
 
+README
+* http://www.vzhurudolu.cz/prirucka/webovy-koder
+* http://tomasp.net/blog/2015/library-frameworks/
+* http://blog.ploeh.dk/2014/08/11/cqs-versus-server-generated-ids/
+* http://blog.ploeh.dk/2015/10/08/command-query-separation-when-queries-should-have-side-effects/
+* http://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/
+
 Getting this done
 
 
