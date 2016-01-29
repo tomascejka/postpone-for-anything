@@ -39,9 +39,20 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * https://stackoverflow.com/questions/26825276/spring-4-restcontroller-json-characteristics-not-acceptable-according-to-the-re
 * https://en.wikipedia.org/wiki/Content_negotiation
  
+
 ### Q3 How logging in MVC (specially exception states)
 * http://blog.teamextension.com/handling-exceptions-in-spring-mvc-with-logging-903
+
+### Validators
+* http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html
+* http://hibernate.org/validator/documentation/getting-started/
+* http://www.mkyong.com/spring-mvc/spring-3-mvc-and-jsr303-valid-example/
+* http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-validator-example/
+* http://www.journaldev.com/2668/spring-mvc-form-validation-example-using-annotation-and-custom-validator-implementation
+* http://howtodoinjava.com/spring/spring-mvc/spring-bean-validation-example-with-jsr-303-annotations/
+* http://codetutr.com/2013/05/28/spring-mvc-form-validation/
  
+
 ### Testing MVC Controllers
 * http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#spring-mvc-test-framework
 * http://www.petrikainulainen.net/spring-mvc-test-tutorial/
