@@ -12,6 +12,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://javahash.com/spring-4-mvc-hello-world-tutorial-full-example/
 * http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/
 * http://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
+
 #### Examples:
 * http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/ (MVC+XML response)
 * http://www.mkyong.com/spring-mvc/spring-3-mvc-and-json-example/ (MVC+JSON response)
@@ -23,6 +24,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://viralpatel.net/blogs/spring-mvc-exception-handling-controlleradvice-annotation/ (@ControllerAdvice)
 * http://blog.codeleak.pl/2013/04/how-to-custom-error-pages-in-tomcat.html
 * http://www.sporcic.org/2014/05/custom-error-pages-with-spring-boot/ (Spring BOOT, only for inspiration)
+
 #### Examples:
 * http://www.mkyong.com/spring-mvc/spring-mvc-exceptionhandler-example/
 * http://www.mkyong.com/spring-mvc/spring-mvc-catch-the-exceptions-thrown-by-view-page/
@@ -47,6 +49,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 * http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-normal-controllers/
 * http://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
 * https://stackoverflow.com/questions/32052610/spring-unit-test-404-unknown-url-in-mock-mvc
+
 #### Examples
 * https://github.com/pkainulainen/spring-mvc-test-examples
 
@@ -60,7 +63,7 @@ Chci do MVC zatahnout nejake sablony:
 * http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#preface (thymeleaf)
 * http://trimou.org/doc/latest.html (Trimou, 5.6 Spring MVC integration)
 
-Examples:
+##Examples:
 * https://github.com/trimou/trimou/tree/master/examples (TRIMOU)
 * https://github.com/Pitzcarraldo/spring-isomorphic-view-example (TRIMOU)
 * https://dzone.com/articles/trimou-160-spring-mvc-and (TRIMOU)
@@ -69,7 +72,7 @@ Examples:
 
 ### Problems
 * http://blog.flurdy.com/2010/07/jetty-tomcat-jsp.html
-* 
+
 ## Tools: Maven, Jetty, Tomcat
 * https://tomcat.apache.org/maven-plugin-2.2/
 * https://steveliles.github.io/setting_up_embedded_jetty_8_and_spring_mvc_with_maven.html
