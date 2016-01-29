@@ -4,6 +4,13 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 ## Official current docs
 * http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html
 
+### Basics (**README**):
+* http://websystique.com/spring-4-mvc-tutorial/
+* http://o7planning.org/web/fe/default/en/document/8108/spring-mvc-tutorial-for-beginners
+* http://javahash.com/spring-4-mvc-hello-world-tutorial-full-example/
+* http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/
+* http://www.mkyong.com/spring-mvc/gradle-spring-4-mvc-hello-world-example-annotation/
+
 ### How @ResponseBody works:
 * http://www.javacodegeeks.com/2013/07/spring-mvc-requestbody-and-responsebody-demystified.html
 * http://websystique.com/springmvc/spring-mvc-requestbody-responsebody-example/ (**README**)
@@ -19,8 +26,8 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 
 ## TEMPLATE BASED CODING
 Chci do MVC zatahnout nejake sablony:
-* Thymeleaf (http://www.thymeleaf.org/)
-* http://trimou.org/
+* Thymeleaf - (http://www.thymeleaf.org/)
+* Trimou - http://trimou.org/
 
 ### Integrace s MVC
 * http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html#preface (thymeleaf)
@@ -30,3 +37,5 @@ Examples:
 * https://github.com/trimou/trimou/tree/master/examples (TRIMOU)
 * https://github.com/Pitzcarraldo/spring-isomorphic-view-example (TRIMOU)
 * https://dzone.com/articles/trimou-160-spring-mvc-and (TRIMOU)
+* http://www.furkanzumrut.com/thymeleaf-spring-mvc-integration-example (Thymeleaf)
+* https://github.com/thymeleaf/thymeleafexamples-petclinic (Thymeleaf + Service/Repository)
