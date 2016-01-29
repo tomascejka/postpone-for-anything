@@ -46,6 +46,7 @@ Zacinam a je potreba se do MVC ve Spring co nejrychleji dostat, zde je ucici kri
 ### Validators
 * http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html
 * http://hibernate.org/validator/documentation/getting-started/
+* http://websystique.com/springmvc/spring-4-mvc-form-validation-with-hibernate-jsr-validator-resource-handling-using-annotations/
 * http://www.mkyong.com/spring-mvc/spring-3-mvc-and-jsr303-valid-example/
 * http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-validator-example/
 * http://www.journaldev.com/2668/spring-mvc-form-validation-example-using-annotation-and-custom-validator-implementation
