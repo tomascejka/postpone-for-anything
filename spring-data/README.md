@@ -9,6 +9,7 @@
 * http://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-part-six-sorting/ (Sortovani)
 * https://samerabdelkafi.wordpress.com/2014/05/29/spring-data-jpa/
 * http://hantsy.blogspot.cz/2013/10/spring-data-jpa.html
+* http://www.infoq.com/articles/spring-data-intro
 
 #### Examples
 * https://github.com/pkainulainen/spring-data-jpa-examples/tree/sorting
