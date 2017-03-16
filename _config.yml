@@ -1,0 +1,8 @@
+title: Postpone-for-anything
+description: Notes, ideas and so on....
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
