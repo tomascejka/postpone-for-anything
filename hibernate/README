@@ -1,3 +1,0 @@
-FETCH-ovacni EAGER objektu v Hibernate:
-* http://www.javacodegeeks.com/2014/12/eager-fetching-is-a-code-smell.html
-* http://www.javacodegeeks.com/2013/12/hibernate-facts-always-check-criteria-api-sql-queries.html
